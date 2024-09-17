@@ -56,7 +56,7 @@ int main() {
     int totalAmount = 200, largestSize = 0;
     for (largestSize = 7; coins[largestSize] > totalAmount && largestSize >= 0; largestSize--);
     int answer31 = coinCombinations(totalAmount, largestSize);
-    std::cout << "\nThe answer to Question 15: \n\"How many different ways can 2 Pounds be made using any number of coins?\"\n Is: " << answer31 << std::endl;
+    std::cout << "\nThe answer to Question 31: \n\"How many different ways can 2 Pounds be made using any number of coins?\"\n Is: " << answer31 << std::endl;
 
 
 
